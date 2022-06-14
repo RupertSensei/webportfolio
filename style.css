@@ -4,12 +4,18 @@
 	box-sizing: border-box;
 }
 
-body {
+body, footer {
 	font-family: "Roboto", sans-serif;
 	background-image: url(https://images.pexels.com/photos/3308588/pexels-photo-3308588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-repeat: inherit;
+	background-size: 50%;
 }
 
-.bg-navbar-color, .bg-form {
+nav {
+	position: sticky;
+	top: 0;
+}
+.bg-navbar-color, .bg-form, .bg-footer {
 	background-color: #B31B13;
 }
 
@@ -24,4 +30,25 @@ body {
 
 .bg-card {
 	background-color: #D5DFBA;
+}
+
+.bg-footnote {
+	background-color: #FA8136;
+}
+.list-style {
+	list-style: none;
+}
+
+a, a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+h2 {
+	font-family: "Lobster", cursive;
+	font-size: 3rem;
+}
+#welcome {
+	font-family: "Lobster", cursive;
+	font-size: 6rem;
 }
