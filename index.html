@@ -22,7 +22,7 @@
 <body>
 
 	<!-- Navbar Start -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+	<nav class="navbar navbar-expand-lg bg-navbar-color navbar-dark mb-md-5">
 	  <a class="navbar-brand" href="./index.html">RuRu Sensei</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
@@ -46,12 +46,12 @@
 
 	<!-- Main Content Start -->
 
-	<div id="main-page" class="container-fluid text-center bg-maincolor">
+	<div class="container-fluid text-center">
 		<!-- About me Section start -->
-		<div class="p-3 p-md-5 bg-main-color text-dark min-vh-100" >
-			<div class="row border border-dark bgimage">
+		<div class="p-3 p-md-5 mb-md-5 bg-main-color text-dark min-vh-100" >
+			<div class="row border border-dark">
 
-				<h2 class="col-md-12 mb-md-5 d-block">About Me</h2>
+				<h2 class="col-md-12 mb-md-5 d-block mt-xl-3">About Me</h2>
 				<div class="offset-md-2 col-md-8">
 					
 					<img src="Myself.jpg" class="img-fluid mt-5 mt-md-0 rounded-circle" width="300px">
@@ -70,30 +70,51 @@
 		<!-- About me Section end -->
 
 		<!-- Gallery/Projects Section Start -->
-		<div class="p-3 p-md-5 bg-secondary text-warning min-vh-100">
-			<div class="row border border-dark">
+		<div class="p-3 p-md-5 mb-md-5 bg-project text-dark min-vh-100">
+			<div class="row">
 
 				<div class="col-md-12">
 				<h2>Projects</h2>
-				<p>These capstone projects are the proof of my skills and qualifications as a Full-Stack Developer</p>
+				<p>These capstone projects are the proof of my skills and qualifications as a Full-Stack Developer:</p>
 				</div>
 
-				<div class="p-md-5 d-lg-flex justify-content-center">
-					<div class="card">
+				<div class="p-md-5 d-lg-flex justify-content-center ">
+					<!-- Capstone 1 Start -->
+
+					<div class="card bg-card col-xl-4 mb-5 mb-xl-0">
 					  <div class="card-body">
 					    <h5 class="card-title">Frontend Web Develoment</h5>
-					    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					    <a href="#" class="card-link">Card link</a>
-					    <a href="#" class="card-link">Another link</a>
+					    <img src="capstone1.jpg" class="img-fluid mb-3" width="400px">
+					    <h6 class="card-subtitle mb-2 text-muted">Capstone 1</h6>
+					    <p class="card-text">We create a simple website portfolio using HTML, CSS and Bootstrap. We have learned how to layout a website using various kinds of elements and tags and by applying different attributes and values.</p>
+					  </div>
+					</div>
+					<!-- Capstone 1 End -->
+
+					<!-- Capstone 2 Start -->
+
+					<div class="card bg-card col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+					  <div class="card-body">
+					    <h5 class="card-title">Backend Programming</h5>
+					    <img src="https://ak.picdn.net/shutterstock/videos/1054933562/thumb/7.jpg" class="img-fluid mb-3" width="400px">
+					    <h6 class="card-subtitle mb-2 text-muted">Capstone 2</h6>
+					    <p class="card-text">This project is still on progress.</p>
 					  </div>
 					</div>
 
+					<!-- Capstone 2 End -->
+					<!-- Capstone 3 Start -->
+					<div class="card bg-card col-xl-4 mb-5 mb-xl-0">
+					  <div class="card-body">
+					    <h5 class="card-title">Full-Stack Development</h5>
+					    <img src="https://ak.picdn.net/shutterstock/videos/1054933562/thumb/7.jpg" class="img-fluid mb-3" width="400px">
+					    <h6 class="card-subtitle mb-2 text-muted">Capstone 3</h6>
+					    <p class="card-text">This project is still in progress.</p>
+					  </div>
+					</div>
+					<!-- Capstone 3 End -->
+
 				</div>
-
-
-
-
 
 				
 
@@ -101,6 +122,46 @@
 
 		</div>
 		<!-- Gallery/Projects Section End -->
+
+		<!-- Contact Me Start -->
+		<div class="p-3 p-md-5 mb-md-5 bg-contact text-dark min-vh-100">
+			<div class="row">
+
+				<h2 class="col-md-12 mb-md-5 d-block mt-xl-3">Contact Me</h2>
+
+				<div class="col-md-6 border border-dark bg-form text-light p-3 mx-md-3">
+					<form>
+					  <div class="form-group">
+					    <label for="formGroupExampleInput">Name</label>
+					    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+					  </div>
+					  <div class="form-group">
+					    <label for="formGroupExampleInput2">Email</label>
+					    <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="name@example.com">
+					  </div>
+					  <div class="form-group">
+					    <label for="formGroupExampleInput2">Contact Number</label>
+					    <input type="number" class="form-control mb-3" id="formGroupExampleInput2" placeholder="+63 900 000 0000">
+
+					    <label class="d-block">Message</label>
+					    <textarea name="message" rows="5">
+					    	
+					    </textarea>
+					  </div>
+					</form>
+
+					<div>
+						<!-- Map -->
+					</div>
+
+				</div>
+
+			</div>
+			
+
+		</div>
+
+		<!-- Contact Me End -->
 		
 	</div>
 

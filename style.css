@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-image: url(https://images.pexels.com/photos/3308588/pexels-photo-3308588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.bg-navbar-color, .bg-form {
+	background-color: #B31B13;
+}
+
+.bg-main-color, .bg-contact {
+	background-color: #FEEFC1;
+
+}
+
+.bg-project {
+	background-color: #E0744D;
+}
+
+.bg-card {
+	background-color: #D5DFBA;
+}
