@@ -6,9 +6,10 @@
 
 body, footer {
 	font-family: "Roboto", sans-serif;
-	background-image: url(https://images.pexels.com/photos/3308588/pexels-photo-3308588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-color: #0C2516;
+	/*background-image: url(https://images.pexels.com/photos/259707/pexels-photo-259707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 	background-repeat: inherit;
-	background-size: 50%;
+	background-size: 100%;*/
 }
 
 nav {
@@ -41,6 +42,7 @@ nav {
 
 a, a:hover {
 	color: gray;
+	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -50,5 +52,10 @@ h2 {
 }
 #welcome {
 	font-family: "Lobster", cursive;
+	color: #FEEFC1;
 	font-size: 6rem;
+}
+
+.font-green {
+	color: #0C2516;
 }
